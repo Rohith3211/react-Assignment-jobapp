@@ -1,0 +1,81 @@
+.d-card {
+  margin-top: 0px;
+  min-height: 90vh;
+  background-color: black;
+  padding: 30px;
+}
+
+.d-details {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+.anchor {
+  color: rgb(0, 128, 255);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.dis-card {
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-between;
+}
+.dis-card h1 {
+  font-size: 20px;
+}
+.icon-img {
+  height: 35px;
+}
+.icon-card {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  width: 140px;
+}
+.icon-card h1 {
+  font-size: 13px;
+  margin-left: 13px;
+}
+.h1 {
+  font-size: 17px;
+  margin-top: 20px;
+}
+.skills-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.life-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.life-card img {
+  height: 170px;
+  width: 180px;
+}
+.life-card p {
+  margin-right: 20px;
+}
+
+@media (min-width: 576px) {
+  .s-card-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.f-cards {
+  margin-top: 0px;
+  min-height: 90vh;
+  background-color: black;
+  padding: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.similar-h {
+  font-size: 20px;
+}

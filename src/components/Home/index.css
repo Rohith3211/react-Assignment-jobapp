@@ -1,0 +1,14 @@
+.home-card {
+  padding: 10px 20px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+  height: 86.8vh;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .home-card {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    background-size: cover;
+  }
+}

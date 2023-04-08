@@ -1,0 +1,12 @@
+.not-card {
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.not-img {
+  height: 200px;
+}

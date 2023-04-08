@@ -1,0 +1,31 @@
+.nav-img {
+  height: 35px;
+}
+.nav-card {
+  background-color: #272727;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.l-item {
+  margin: 0px 10px;
+  color: red;
+}
+.nav-btn {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 11px 17px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,49 @@
+.f-card {
+  width: 300px;
+  padding: 20px;
+}
+.head {
+  font-size: 17px;
+}
+.img-card {
+  height: 196px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  border-radius: 13px;
+}
+
+.rahul {
+  height: 50px;
+  margin: 10px;
+}
+.img-card h1 {
+  color: #6366f1;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.img-card p {
+  color: black;
+  font-size: 15px;
+  margin: 10px;
+}
+
+ul {
+  list-style: none;
+  margin-left: -40px;
+}
+
+@media (min-width: 1200px) {
+  .f-card {
+    width: 370px;
+  }
+}
+.image-fail {
+  height: 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  border-radius: 13px;
+}

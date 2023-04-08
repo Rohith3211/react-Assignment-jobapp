@@ -1,0 +1,56 @@
+.log-card {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.l-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  align-items: center;
+  height: 300px;
+  padding: 30px 30px;
+  width: 300px;
+  border-radius: 8px;
+}
+.log-img {
+  height: 40px;
+  width: 130px;
+}
+.label-text {
+  font-size: 9px;
+  margin-top: 13px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.log-btn {
+  margin-top: 20px;
+  color: white;
+  background-color: #6366f1;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 0px;
+  border-radius: 4px;
+}
+.input {
+  margin-top: 1px;
+  background-color: #121212;
+  border-width: 1px;
+  padding: 5px 8px;
+  border-style: solid;
+  border-radius: 4px;
+  width: 200px;
+  color: white;
+  font-size: 11px;
+}
+.e-msg {
+  color: red;
+  font-size: 10px;
+}

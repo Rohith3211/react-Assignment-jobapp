@@ -1,0 +1,17 @@
+.s-card {
+  background-color: #272727;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px 0px;
+}
+.s-dis h1 {
+  font-size: 20px;
+}
+
+@media (min-width: 576px) {
+  .s-card {
+    width: 300px;
+    margin-right: 20px;
+  }
+}
